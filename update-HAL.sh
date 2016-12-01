@@ -22,5 +22,5 @@ cp -r /opt/STM32Cube_FW_F4/Projects/STM32F401RE-Nucleo/Examples/GPIO/GPIO_IOTogg
 cp -r /opt/STM32Cube_FW_F4/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c ./src
 cp -r /opt/STM32Cube_FW_F4/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.h ./include
 
-chown -R jplopez:jplopez *
+chown -R $SUDO_USER:$SUDO_USER *
 
